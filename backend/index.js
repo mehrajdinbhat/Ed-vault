@@ -22,8 +22,7 @@ console.log("DEBUG MONGO_URI:", URI)
 // connect to mongodb;
 try {
   mongoose.connect(process.env.Mongo_URI,{
-    useNewurlParser:true,
-    useUnifiedTopology:true
+   
   })
   console.log("connected to mongodb mehraj")
 
